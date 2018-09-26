@@ -29,6 +29,9 @@ mutableDictionary["bar"] = 1;
 
 print(mutableDictionary);
 
-// nullable variant.
+// nullable variant. Optional type.
 // it must specify variant type.
+// null is called "nil" in swift.
+// this syntax is called "Wrapped".
+// String? == Optional<String>
 var nillableVariant: String? = "Foo";
